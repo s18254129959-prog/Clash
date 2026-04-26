@@ -7,3 +7,8 @@ payload:
   - DOMAIN-SUFFIX,atas.net
   - DOMAIN-SUFFIX,amplitude.com
   - DOMAIN-SUFFIX,orderflowtrading.net
+  - IP-CIDR,142.132.201.231/32
+  - IP-CIDR,65.21.228.47/32
+  - IP-CIDR,51.89.6.194/32
+  - IP-CIDR,157.180.79.0/32
+  - IP-CIDR,135.181.115.236/32

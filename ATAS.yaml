@@ -1,0 +1,9 @@
+# NAME: ATAS
+# AUTHOR: Tom
+# REPO: https://github.com/s18254129959-prog/Clash/tree/main
+# UPDATED: 2026-04-026 13:13:13
+# DOMAIN-SUFFIX: 3
+payload:
+  - DOMAIN-SUFFIX,atas.net
+  - DOMAIN-SUFFIX,amplitude.com
+  - DOMAIN-SUFFIX,orderflowtrading.net

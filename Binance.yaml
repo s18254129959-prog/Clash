@@ -19,3 +19,4 @@ payload:
   - DOMAIN-SUFFIX,saasexch.com
   - DOMAIN,api.binance.com
   - DOMAIN,fapi.binance.com
+  - DOMAIN,stream.binance.com

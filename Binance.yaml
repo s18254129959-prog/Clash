@@ -18,3 +18,4 @@ payload:
   - DOMAIN-SUFFIX,saasexch.cc
   - DOMAIN-SUFFIX,saasexch.com
   - DOMAIN-SUFFIX,api.binance.com
+  - DOMAIN-SUFFIX,fapi.binance.com

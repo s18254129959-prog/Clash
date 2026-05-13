@@ -17,5 +17,5 @@ payload:
   - DOMAIN-SUFFIX,bntrace.com
   - DOMAIN-SUFFIX,saasexch.cc
   - DOMAIN-SUFFIX,saasexch.com
-  - DOMAIN-SUFFIX,api.binance.com
-  - DOMAIN-SUFFIX,fapi.binance.com
+  - DOMAIN-KEYWORD,api.binance.com
+  - DOMAIN-KEYWORD,fapi.binance.com

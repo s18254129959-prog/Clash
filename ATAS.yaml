@@ -5,5 +5,5 @@
 # DOMAIN-SUFFIX: 3
 payload:
   - DOMAIN-SUFFIX,atas.net
-  - DOMAIN,api.amplitude.com
+  - DOMAIN-SUFFIX,amplitude.com
   - DOMAIN-SUFFIX,orderflowtrading.net

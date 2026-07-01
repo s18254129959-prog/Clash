@@ -1,0 +1,21 @@
+# Apple Push Notification Service (APNs) - 2026
+# 域名列表格式，可用于 Loon / Surge / Clash 等工具的规则集订阅
+# 用法示例（Loon）: 规则集 -> 添加 -> 类型选 DOMAIN -> 粘贴此列表 URL 或本地路径
+
+push.apple.com
+gateway.push.apple.com
+api.push.apple.com
+sandbox.push.apple.com
+courier.push.apple.com
+push-apple.com.akadns.net
+push-apple.com
+apple-push.com
+pushgw.apple.com
+
+# 可选增强（推送不稳定时可取消注释）
+# idmsa.apple.com
+# gs.apple.com
+
+# 说明: 原规则中的 DOMAIN-KEYWORD,push.apple 无法用纯域名列表表达，
+# 如需关键字匹配，请在 Loon 规则中单独添加:
+# DOMAIN-KEYWORD,push.apple,🍎 APNs

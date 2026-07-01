@@ -1,0 +1,18 @@
+# Apple APNs 推送专用规则集 - 2026版
+# 直接复制到 Loon 的「规则集」或「订阅」中
+
+# === Apple Push Notification Service (APNs) ===
+DOMAIN-SUFFIX,push.apple.com,🍎 APNs
+DOMAIN-SUFFIX,gateway.push.apple.com,🍎 APNs
+DOMAIN-SUFFIX,api.push.apple.com,🍎 APNs
+DOMAIN-SUFFIX,sandbox.push.apple.com,🍎 APNs
+DOMAIN-SUFFIX,courier.push.apple.com,🍎 APNs
+DOMAIN-SUFFIX,push-apple.com.akadns.net,🍎 APNs
+DOMAIN-SUFFIX,push-apple.com,🍎 APNs
+DOMAIN-SUFFIX,apple-push.com,🍎 APNs
+DOMAIN-SUFFIX,pushgw.apple.com,🍎 APNs
+DOMAIN-KEYWORD,push.apple,🍎 APNs
+
+# 可选增强（如果推送还是不稳定可以加上）
+# DOMAIN-SUFFIX,idmsa.apple.com,🍎 APNs
+# DOMAIN-SUFFIX,gs.apple.com,🍎 APNs

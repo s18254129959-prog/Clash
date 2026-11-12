@@ -1,0 +1,28 @@
+# ============================================
+# Bitfinex 完整分流规则集
+# 适用：Loon / Surge / Quantumult X 等
+# 使用前请将末尾的 "Crypto" 替换为你的策略组名
+# ============================================
+
+# ---------- 主域名 ----------
+# 覆盖所有 bitfinex.com 官方子域名
+# （trading / api / api-pub / docs / blog / support / careers 等）
+DOMAIN-SUFFIX,bitfinex.com,Crypto
+
+# ---------- 独立状态页 ----------
+# Bitfinex 服务状态页不在 bitfinex.com 主域下
+DOMAIN,bitfinex.statuspage.io,Crypto
+
+# ---------- 备用 / 关联域名 ----------
+# 来自官方 SSL 证书披露的备用名称（SAN）
+# 用于特定地区或场景的访问，避免流量泄漏
+DOMAIN-SUFFIX,ibitgloba-net.lat,Crypto
+DOMAIN-SUFFIX,fxkj-5.lat,Crypto
+DOMAIN-SUFFIX,bitfinexusd.lat,Crypto
+DOMAIN-SUFFIX,bitfinexbnb.lat,Crypto
+DOMAIN-SUFFIX,bitfinextrc.xyz,Crypto
+
+# ---------- 兜底规则 ----------
+# 捕获任何域名中包含 "bitfinex" 的请求
+# 防止未来新增域名或已知列表外的遗漏
+DOMAIN-KEYWORD,bitfinex,Crypto
